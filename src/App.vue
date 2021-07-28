@@ -1,14 +1,19 @@
 <template>
-  <Home msg="DjSmileKing" />
+  <div id="app">
+    <va-navibar></va-navibar>
+    <v-content>
+      <router-view></router-view>
+    </v-content>
+  </div>
 </template>
 
 <script>
-import Home from "./components/AllAudio.vue";
+import VANaviBar from "NaviBar.vue";
 
 export default {
-  name: "App",
+  name: "app",
   components: {
-    Home,
+    "va-navibar": VANaviBar,
   },
 };
 </script>

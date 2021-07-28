@@ -1,6 +1,7 @@
 {
   "name": "djsmileking",
   "version": "0.1.0",
+  "author": "devjaba",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -9,7 +10,9 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
-    "vue": "^3.0.0"
+    "vue": "^3.0.0",
+    "vue-router": "^2.3.0",
+    "font-awesome": "^4.7.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",

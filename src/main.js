@@ -1,4 +1,15 @@
-import { createApp } from 'vue'
-import App from './App.vue'
+import './lib/css'
+import './lib/script'
+import Vue from 'vue'
+import App from './App'
+import router from './router'
 
-createApp(App).mount('#app')
+/* eslint-disable no-new */
+new Vue({
+    el: '#app',
+    router,
+    template: '<App/>',
+    components: {
+        App
+    }
+})

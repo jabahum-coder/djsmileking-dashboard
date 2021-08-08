@@ -2,7 +2,6 @@
   <div class="hello">
     <b-card-group>
       <b-card
-        footer="$150 /night"
         footer-tag="footer"
         title="Modern English Basement Apartment"
         img-src="https://wander-lush.org/wp-content/uploads/2021/01/Medellin-Airbnb-Penthouse-in-Laureles.jpg"
